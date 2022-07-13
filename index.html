@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <title>Caio de Souza Silva - Front End</title>
+</head>
+
+<body>
+
+    <div class="cs-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="cs-preloader">
+        <div class="cs-preloader-inner">
+            <img src="images/lemon-loader.svg" class="cs-mar-bottom-15" />
+            <p class="cs-text-light cs-mar-top-15">Aguarde um pouquinho … Estou preparando a limonada</p>
+        </div>
+    </div>
+
+    <div class="cs-overlay cs-toggle-modal"></div>
+    <div class="cs-menu-overlay cs-toggle-menu"></div>
+
+    <div class="cs-modal cs-bg-black" id="cs-modal-orcamento">
+        <div class="cs-modal-header">
+            <h1 class="cs-title cs-text-green cs-mar-bottom-15">
+                Solicite um orçamento
+            </h1>
+
+            <button class="cs-close-modal cs-toggle-modal">
+                X
+            </button>
+        </div>
+
+        <div class="cs-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="cs-text-light">Por favor informe os dados abaixo e eu entrarei em contato com você o mais
+                        breve
+                        possível.</p>
+                </div>
+            </div>
+            <div class="row cs-mar-top-15">
+                <div class="col-sm-12">
+                    <form class="cs-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Nome" class="cs-text-light">Nome</label>
+                                <input type="text" name="Nome" id="cs-nome" class="cs-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Email" class="cs-text-light">Email</label>
+                                <input type="email" name="Email" id="cs-email" class="cs-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Telefone" class="cs-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="cs-telefone" class="cs-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Site" class="cs-text-light">Site</label>
+                                <input type="text" name="Site" id="cs-site" class="cs-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-12 cs-mar-top-15">
+                                <label for="Mensagem" class="cs-text-light">Descreva abaixo o projeto na qual você
+                                    precisa de orçamento:</label>
+                                <textarea id="cs-mensagem" name="Mensagem" rows="8" class="cs-textarea"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-end cs-mar-top-15">
+                            <div class="col-sm-12 col-md-6">
+                                <button class="cs-btn cs-btn-large cs-btn-green cs-btn-block">Enviar</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="cs-topbar">
+        <div class="cs-logo cs-logo-big">
+<h1 class="cs-text-logo">CS</h1>        </div>
+
+        <nav class="cs-menu">
+            <a href="../Projeto Final/index.html">Home</a>
+            <a href="../Projeto Final/pages/portfolio.html">Portfolio</a>
+            <a href="../Projeto Final/pages/sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <button class="cs-btn-menu-mob cs-toggle-menu">
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <nav class="cs-menu-mob cs-menu-is-closed">
+        <a href="#">Home</a>
+        <a href="pages/portfolio.html">Portfolio</a>
+        <a href="pages/sobre.html">Sobre</a>
+    </nav>
+
+    <div class="cs-contact-info cs-bg-black cs-text-light">
+        <div class="cs-contact-info-inner">
+            <h2 class="cs-title cs-text-green">Contato</h2>
+            <p>caioss20.cs@gmail.com</p>
+            <p>+55 (11) 9 98469 6489</p>
+            <div class="cs-social-links">
+                <a href="https://www.instagram.com/caiocollins__/" target="_blank" class="cs-social">
+                    <img src="images/icon-instagram.svg" alt="Instagram" />
+                </a>
+                <a href="https://www.linkedin.com/in/caiosouzadevv/" target="_blank" class="cs-social">
+                    <img src="images/icon-linkedin.svg" alt="Linkedin" />
+                </a>
+                <a href="https://github.com/CaioSouzaDevv" target="_blank" class="cs-social">
+                    <img src="images/icon-github.svg" alt="github" />
+                </a>
+            </div>
+        </div>
+        <div class="cs-corner">
+        </div>
+
+    </div>
+
+    <button class="cs-btn-contact">
+
+    </button>
+
+    <div class="cs-page-wrapper">
+
+        <section class="cs-full-height cs-first-section cs-home-presentation" id="cs-home-presentation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-10 offset-md-1 col-lg-4 offset-lg-1 col-xl-3 offset-xl-2 cs-display-text">
+
+                        <h1 class="cs-title cs-text-green cs-title-xlarge">Olá!</h1>
+
+                        <p class="cs-text-light">Meu nome é <span class="cs-text-green"> Caio de Souza </span> sou programador
+                             <span class="cs-text-green">Front-End. </span> Acabo de me formar atualmente e estou procurando uma 
+                            oportunidade para aplicar toda a teoria e experiência aplicade em prática.</p>
+
+                        <button class="cs-btn cs-btn-large cs-btn-green cs-mar-top-15 cs-toggle-modal">solicite um
+                            orçamento</button>
+                    </div>
+                </div>
+
+                <div class="cs-scroll-down">
+                    <div class="cs-arrow-down">
+                        <img src="images/arrow-down.svg" alt="Role a Página" />
+                    </div>
+                </div>
+        </section>
+
+        <section class="cs-full-height" id="cs-home-portfolio">
+            <div class="container-fluid cs-no-padding">
+                <div class="row">
+                    <div class="col-sm-12 d-block d-sm-block d-lg-none cs-mar-top-30 cs-pad-top-30">
+                        <h2 class="cs-title-large cs-text-green cs-title cs-text-center">Projetos Selecionados</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-lg-2 order-2 order-sm-2 order-lg-1">
+                        <div class="cs-portfolio-navigator">
+                            <div class="cs-navigator-counter d-none d-sm-none d-lg-block">
+                                <span class="cs-text-green">01</span>
+                            </div>
+                            <nav class="cs-item-navigator d-none d-sm-none d-lg-block">
+                                <a href="#" class="cs-item-active" data-nav="1"></a>
+                                <a href="#" data-nav="2"></a>
+                                <a href="#" data-nav="3"></a>
+                                <a href="#" data-nav="4"></a>
+                            </nav>
+                            <div class="cs-items-next-prev cs-no-radius-left">
+                                <div class="cs-item-prev">
+                                    <ion-icon name="arrow-dropleft"></ion-icon>
+                                </div>
+
+                                <div class="cs-items-counter">
+                                    <span class="cs-current-slide">01</span>
+                                    /
+                                    <span class="cs-total-slide">05</span>
+                                </div>
+
+                                <div class="cs-item-next">
+                                    <ion-icon name="arrow-dropright"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-10 order-1 order-sm-1 order-lg-2">
+                        <div class="cs-slider-container cs-full-height">
+                            <ul class="cs-slider-list cs-full-height">
+                                <li class="cs-portfolio-item cs-slide-active" data-slide="1">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="cs-portfolio-item-info cs-text-light cs-fade-from-left">
+                                                <h1 class="cs-title cs-title-large cs-mar-bottom-15">Kenzie Academy
+                                                    Website</h1>
+                                                <p class="cs-mar-bottom-30">Projeto desenvolvido junto com a Kenzie Academy</p>
+                                                <a href="https://github.com/CaioSouzaDevv/KenzieFlix" target="_blank" class="cs-btn cs-btn-large cs-btn-green">Código do Projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="cs-portfolio-item-thumb">
+                                                <div
+                                                    class="cs-portfolio-item-box d-none d-sm-none d-lg-block cs-scale-right">
+                                                </div>
+                                                <img src="images/kenzieFlix.png" alt="KenzieFlix"
+                                                    title="KenzieFlix" class="cs-scale-up" />
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cs-portfolio-item" data-slide="2">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="cs-portfolio-item-info cs-text-light">
+                                                <h1 class="cs-title cs-title-large cs-mar-bottom-15">Kenzie Academy</h1>
+                                                <p class="cs-mar-bottom-30">Projeto desenvolvido junto com a Kenzie Academy
+                                                </p>
+                                                <a href="https://github.com/CaioSouzaDevv/KenzieFlix" target="_blank" class="cs-btn cs-btn-large cs-btn-green">código do projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="cs-portfolio-item-thumb">
+                                                <div class="cs-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="images/KenzieFlix2.png" alt="KenzieFlix" title="KenzieFlix" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="cs-portfolio-item" data-slide="3">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="cs-portfolio-item-info cs-text-light">
+                                                <h1 class="cs-title cs-title-large cs-mar-bottom-15">Dev Finance</h1>
+                                                <p class="cs-mar-bottom-30">Projeto desenvolvido junto com a Rocketseat!
+                                                </p>
+                                                <a href="https://github.com/CaioSouzaDevv/DevFinance-" target="_blank" class="cs-btn cs-btn-large cs-btn-green">código do projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="cs-portfolio-item-thumb">
+                                                <div class="cs-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="images/DevFinance3.png" alt="DevFinance" title="DevFinance" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="cs-portfolio-item" data-slide="4">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="cs-portfolio-item-info cs-text-light">
+                                                <h1 class="cs-title cs-title-large cs-mar-bottom-15">Dev Finance</h1>
+                                                <p class="cs-mar-bottom-30">Projeto desenvolvido junto com a Rocketseat!
+                                                </p>
+                                                <a href="https://github.com/CaioSouzaDevv/DevFinance-" target="_blank" class="cs-btn cs-btn-large cs-btn-green">código do projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="cs-portfolio-item-thumb">
+                                                <div class="cs-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="images/DevFinance2.png" alt="Dev Finance"
+                                                    title="Dev Finance" />                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Animando Elementos on Scroll com Waypoints
+        var myScrollDown = document.querySelector('.cs-scroll-down');
+        var waypoint = new Waypoint({
+            element: myScrollDown,
+            handler: function () {
+                myScrollDown.classList.toggle('cs-fade-out');
+            },
+            offset: '80%'
+        });
+    </script>
+</body>
+
+</html>
