@@ -407,7 +407,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         height: 45px;
         display: block;
         background-color: #2CCB69;
-        background-image: url('../images/icon-contact-close.svg');
+        background-image: url('../images/icones/icon-contact-close.svg');
         background-repeat: no-repeat;
         position: fixed;
         bottom: 45px;
@@ -502,7 +502,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         position: absolute;
         bottom: -23px;
         right: 0;
-        background: transparent url('../images/corner.svg') no-repeat;
+        background: transparent url('../images/icones/corner.svg') no-repeat;
     }
 
     /*----HOME----*/
@@ -933,7 +933,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         height: 100%;
         z-index: 700;
         background-color: rgba(44, 203, 105, 0.85);
-        background-image: url('../images/icon-see-more.svg');
+        background-image: url('../images/icones/icon-see-more.svg');
         background-repeat: no-repeat;
         background-position: center;
         display: none;
@@ -984,7 +984,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         background-color: #dedede;
         margin: 10% 0;
         border-radius: 8px;
-        background-image: url('../images/skeleton-loading-blur.svg');
+        background-image: url('../images/icones/skeleton-loading-blur.svg');
         background-repeat: no-repeat;
         background-position: -100% -150px;
         animation: skeletonBlur 2s infinite ease-out;
