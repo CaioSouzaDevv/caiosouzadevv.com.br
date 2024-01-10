@@ -8,6 +8,11 @@
 :root {
     --primary-color: #EE1D23;
     --secoundary-color: #121212b5;
+    --grey: #5c5c5c;
+	--dark: #343a40;
+	--light: #f0f0f0;
+	--alert: #b31610;
+	--success: #4caf50;	
 }
 
 p, label {
@@ -237,7 +242,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         z-index: 1000;
         top: 0;
         left: 0;
-        background-color: rgba(44, 203, 105, 0.95);
+        background-color: var(--grey);
     }
 
     .cs-modal {
