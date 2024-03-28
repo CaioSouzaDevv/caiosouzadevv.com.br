@@ -24,6 +24,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Location: index.html');
     exit;
 
-    print_r($mail);
 }
 ?>
