@@ -232,9 +232,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
     .cs-preloader-inner {
         margin-top: -45px;
-        object-fit: contain;
-        background-color: transparent;
-        border: 2px solid #000;
     }
 
     .cs-overlay, .cs-menu-overlay {
