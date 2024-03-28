@@ -1,11 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recolher os dados do formulário
-    $nome = isset($_POST['Nome']) ? $_POST['Nome'] : "Não Informado";
-    $email = isset($_POST['Email']) ? $_POST['Email'] : "Não Informado";
-    $telefone = isset($_POST['Telefone']) ? $_POST['Telefone'] : "Não Informado";
-    $site = isset($_POST['Site']) ? $_POST['Site'] : "Não Informado";
-    $mensagem = isset($_POST['Mensagem']) ? $_POST['Mensagem'] : "Não Informado";
+    $nome = isset($_GET['Nome']) ? $_GET['Nome'] : "Não Informado";
+    $email = isset($_GET['Email']) ? $_GET['Email'] : "Não Informado";
+    $telefone = isset($_GET['Telefone']) ? $_GET['Telefone'] : "Não Informado";
+    $site = isset($_GET['Site']) ? $_GET['Site'] : "Não Informado";
+    $mensagem = isset($_GET['Mensagem']) ? $_GET['Mensagem'] : "Não Informado";
 
     // Montar o corpo do email
     $to = 'caioss20.cs@gmail.com';
