@@ -1,5 +1,4 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recolher os dados do formulário
     $nome = isset($_POST['Nome']) ? $_POST['Nome'] : "Não Informado";
     $email = isset($_POST['Email']) ? $_POST['Email'] : "Não Informado";
@@ -32,5 +31,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Se houver um erro ao enviar o email, exibir uma mensagem de erro
         echo "Erro ao enviar o formulário. Por favor, tente novamente mais tarde.";
     }
-}
 ?>
