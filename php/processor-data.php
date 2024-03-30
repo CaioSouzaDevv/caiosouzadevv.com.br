@@ -29,5 +29,5 @@
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
+  header("refresh:10;url=../index.html");
 ?>
