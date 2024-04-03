@@ -2,7 +2,7 @@
   //Variáveis
   $nome = $_POST['nome'];
   $email = $_POST['email'];
-  $email = $_POST['telefone'];
+  $telefone = $_POST['telefone']; // Correção aqui
   $mensagem = $_POST['mensagem'];
   $data_envio = date('d/m/Y');
   $hora_envio = date('H:i:s');
@@ -12,13 +12,14 @@
     <html>
       <p><b>Nome: </b>$nome</p>
       <p><b>E-mail: </b>$email</p>
+      <p><b>Telefone: </b>$telefone</p> 
       <p><b>Mensagem: </b>$mensagem</p>
       <p>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></p>
     </html>
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "edipojoseoliveira@gmail.com";
+  $destino = "edipojoseoliveira@gmail.com"; // Seu email destinatário
   $assunto = "Contato pelo Site";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
@@ -29,5 +30,5 @@
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  header("refresh:10;url=../index.html");
+  header("refresh:5;url=../index.html");
 ?>
