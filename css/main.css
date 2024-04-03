@@ -1836,6 +1836,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 [data-aos=flip-left] {
     transform: perspective(2500px) rotateY(-90deg);
 }
+
+/* TELA DE LOGIN PROJETOS  */
 .container-login { 
     height: 100vh;
     display: flex;
@@ -1874,3 +1876,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     color: #fff;
    
 }
+
+/* END DE LOGIN PROJETOS  */
