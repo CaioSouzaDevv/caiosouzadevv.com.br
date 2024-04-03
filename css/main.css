@@ -1058,6 +1058,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         top: 14px;
     }
 
+    /* TELA DE LOGIN PROJETOS  */
+.container-login { 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #2C2C2C;
+
+}
+.container-login .box__login {
+    padding: 25px;
+    background-color: #3f3f3f;
+    border-radius: 12px;
+}
+.container-login input {
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    min-width: 300px;
+}
+.container-login .box__login label, p {
+    color: #fff;
+
+    font-size: 12px;
+}
+
+.container-login .box__login .btn--light {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-login .box__login .btn--light:hover {
+    background-color: var(--secoundary-color);
+    color: #fff;
+   
+}
+
+/* END DE LOGIN PROJETOS  */
+
     /* ----- 404 ------- */
 
     .cs-404 h1, .cs-404 p{
@@ -1836,45 +1878,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 [data-aos=flip-left] {
     transform: perspective(2500px) rotateY(-90deg);
 }
-
-/* TELA DE LOGIN PROJETOS  */
-.container-login { 
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    background-color: #2C2C2C;
-
-}
-.container-login .box__login {
-    padding: 25px;
-    background-color: #3f3f3f;
-    border-radius: 12px;
-}
-.container-login input {
-    padding: 12px;
-    font-size: 16px;
-    margin: 10px 0;
-    min-width: 300px;
-}
-.container-login .box__login label, p {
-    color: #fff;
-
-    font-size: 12px;
-}
-
-.container-login .box__login .btn--light {
-    background-color: #fff;
-    color: #000;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    cursor: pointer;
-}
-.container-login .box__login .btn--light:hover {
-    background-color: var(--secoundary-color);
-    color: #fff;
-   
-}
-
-/* END DE LOGIN PROJETOS  */
