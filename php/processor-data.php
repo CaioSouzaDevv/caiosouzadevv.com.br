@@ -9,13 +9,13 @@
 
   //Compo E-mail
   $arquivo = "
-    <html>
-      <p><b>Nome: </b>$nome</p>
-      <p><b>E-mail: </b>$email</p>
-      <p><b>Telefone: </b>$telefone</p> 
-      <p><b>Mensagem: </b>$mensagem</p>
-      <p>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></p>
-    </html>
+   
+    Nome: $nome
+    E-mail: $email
+    Telefone: $telefone 
+    Mensagem: $mensagem
+     Este e-mail foi enviado em $data_envio às $hora_envio<
+  
   ";
   
   //Emails para quem será enviado o formulário
