@@ -19,7 +19,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "edipojoseoliveira@gmail.com"; // Seu email destinatário
+  $destino = "caioss20.cs@gmail.com"; // Seu email destinatário
   $assunto = "Contato pelo Site";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
